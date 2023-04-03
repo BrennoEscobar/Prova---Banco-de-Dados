@@ -32,12 +32,12 @@ body {
 
   td {
     position: relative;
-    left: 10%
+    left: 10%;
   }
 
   th {
     position: relative;
-    left: 10%
+    left: 10%;
   }
 
   p, h2{
@@ -45,5 +45,6 @@ body {
   }
 
   h1{
-    color: white;
+    color: rgb(247, 222, 6);
+    text-shadow: 2px 2px 2px black;
   }

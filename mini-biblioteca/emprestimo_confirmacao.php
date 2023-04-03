@@ -1,7 +1,7 @@
 <?php
 require_once('conexao.php');
-$livro_id = $_POST['livro_id'];
-$usuario_id = $_POST['usuario_id'];
+$livro_id = $_POST['id'];
+$usuario_id = $_POST['id'];
 $data_emprestimo = date('Y-m-d');
 $data_devolucao = date('Y-m-d', strtotime('+7 days'));
 $sql = "INSERT INTO Emprestimos (livro_id, usuario_id, data_emprestimo, data_devolucao) VALUES ('$livro_id', '$usuario_id', '$data_emprestimo', '$data_devolucao')";

@@ -10,6 +10,7 @@ $resultado = $conexao->query($sql);
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="form">
   <h1>Lista de Usuários</h1>
   <?php if ($resultado->num_rows > 0) { ?>
   <table>
@@ -34,5 +35,6 @@ $resultado = $conexao->query($sql);
   <p>Não há usuários cadastrados.</p>
   <?php } ?>
   <p><a href="index.php">Voltar à página inicial</a></p>
+  </div>
 </body>
 </html>

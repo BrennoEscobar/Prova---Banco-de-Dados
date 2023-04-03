@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="form">
   <h1>Novo Usuário</h1>
   <form method="post" action="novo_usuario_confirmacao.php">
     <label>Nome:</label>
@@ -16,5 +17,6 @@
     <input type="submit" value="Salvar">
   </form>
   <p><a href="index.php">Voltar à página inicial</a></p>
+</div>
 </body>
 </html>
